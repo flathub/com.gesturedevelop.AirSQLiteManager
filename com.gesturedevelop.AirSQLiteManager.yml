@@ -20,12 +20,12 @@ modules:
       - ln -s /app/lib/AirSQLiteManager/AirSQLiteManager /app/bin/AirSQLiteManager
     sources:
       - type: archive
-        url: https://airsqlitemanager.gesturedevelop.com/AirSQLiteManager-0.9.15-x86-64.tar.xz
-        sha256: b9bde64a74354dbcc756244498bf6c98ec4756133dbdbbde7e33e856e6b96208
+        url: https://airsqlitemanager.gesturedevelop.com/AirSQLiteManager-0.9.16-x86-64.tar.xz
+        sha256: 45a8b565a669921648cade590b019b787a5f3409ff02d87f5ef0bc20bffe573b
         only-arches:
           - x86_64
       - type: archive
-        url: https://airsqlitemanager.gesturedevelop.com/AirSQLiteManager-0.9.15-arm64.tar.xz
-        sha256: 47aedbf5b7a1b643fa7a22d2bb9343ab5b3f20baa04dd0190ba239c89fd6c170
+        url: https://airsqlitemanager.gesturedevelop.com/AirSQLiteManager-0.9.16-arm64.tar.xz
+        sha256: d68159e644f98639d39856b68725d86a3343a56c2a603dbdf0a59a2524b13702
         only-arches:
           - aarch64

@@ -1,6 +1,6 @@
 app-id: com.gesturedevelop.AirSQLiteManager
 runtime: org.freedesktop.Platform
-runtime-version: '25.08'
+runtime-version: '26.08'
 sdk: org.freedesktop.Sdk
 command: AirSQLiteManager
 finish-args:
@@ -20,12 +20,12 @@ modules:
       - ln -s /app/lib/AirSQLiteManager/AirSQLiteManager /app/bin/AirSQLiteManager
     sources:
       - type: archive
-        url: https://airsqlitemanager.gesturedevelop.com/AirSQLiteManager-0.9.16-x86-64.tar.xz
-        sha256: 45a8b565a669921648cade590b019b787a5f3409ff02d87f5ef0bc20bffe573b
+        url: https://airsqlitemanager.gesturedevelop.com/AirSQLiteManager-0.9.17-x86-64.tar.xz
+        sha256: 72dc2e57adbf09ada1c96bb2dcda26282cbe41e9484045e7a63a8685ce2cc71d
         only-arches:
           - x86_64
       - type: archive
-        url: https://airsqlitemanager.gesturedevelop.com/AirSQLiteManager-0.9.16-arm64.tar.xz
-        sha256: d68159e644f98639d39856b68725d86a3343a56c2a603dbdf0a59a2524b13702
+        url: https://airsqlitemanager.gesturedevelop.com/AirSQLiteManager-0.9.17-arm64.tar.xz
+        sha256: 921c81079d87d6f6ed07b10eed4de3b9723fa3ebd236119b97fcf6f6919d7f5f
         only-arches:
           - aarch64
